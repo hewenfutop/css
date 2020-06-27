@@ -1,0 +1,48 @@
+#app
+  display flex
+  .left
+    width 300px
+    textarea
+      width 283px
+      height 420px
+      font-size 16px
+  .right
+    min-width 0
+    flex 1
+    .box
+      .title
+        font-size 14px
+        font-weight bold
+        color #f90
+      .content
+        .row
+          display flex
+          margin 2px 0
+          align-items center
+          .row-title
+            color #2aff04
+            margin-right 20px
+          .row-content
+            min-width 0
+            flex 1
+            display flex
+            .btn
+              cursor pointer
+              padding 4px
+              border 1px solid #d2d2d2
+              font-size 12px
+              margin 0 4px
+              user-select none
+              .color-box
+                display inline-block
+                width 10px
+                height 10px
+              &.checked
+                color #fff
+                border-color 06 b2ff
+                background-color #06b2ff
+          .row-input
+            color red
+            input
+              width 80px
+            
